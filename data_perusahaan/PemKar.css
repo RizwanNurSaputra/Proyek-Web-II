@@ -1,0 +1,25 @@
+.bodi {
+    background-color: rgba(219, 219, 219, 0.911);
+    
+}
+
+.images {
+    width: 550px;
+    height: 400px;
+    max-width: 100%;
+ 
+}
+
+.responsive img {
+    max-width:100%;
+    /*width:100%;*/
+    height: auto;
+}
+
+.container-fluid-1{
+    max-width: 70%;
+    margin: auto;
+    
+   
+ 
+}

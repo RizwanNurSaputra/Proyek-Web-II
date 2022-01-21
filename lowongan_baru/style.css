@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+}
+.kualifikasi {
+  text-indent: 10px;
+}
+.nav-link {
+  text-decoration: underline;
+}
+.kategori .job a {
+  text-decoration: none;
+  color: black;
+}
+.kategori .job a:hover {
+  background-color: salmon;
+  color: white;
+}
+.loker1 img {
+  border: 2px solid black;
+}
+@media screen and (max-width: 480px) {
+  .loker1 img {
+    width: 300px;
+    background-repeat: no-repeat;
+  }
+  .info {
+    font-size: small;
+    margin-right: auto;
+  }
+}
+
+@media screen and (device-width: 768px) {
+  .loker1 img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
